@@ -1,0 +1,67 @@
+.body-spacing {
+    padding: 2em 4em;
+}
+.fc .fc-button-primary{
+    background-color: #88368b !important;
+    border-color: #88368b !important;
+    text-transform: capitalize;
+}
+.fc-dayGridMonth-button{
+    opacity: .7 !important;
+}
+.fc-timeGridWeek-button{
+    opacity: .7 !important;
+}
+.fc-timeGridDay-button{
+    opacity: .7 !important;
+}
+.fc .fc-button-primary.fc-button-active{
+    opacity: 1 !important;
+}
+.fc .fc-button-primary:not(:disabled):active:focus, .fc .fc-button-primary:not(:disabled).fc-button-active:focus{
+    box-shadow: none !important;
+}
+.fc-h-event, .fc-v-event{
+    background-color: #88368b99;
+    border-color: #88368b99;
+}
+.fc-daygrid-event-dot{
+    border-color: #88368b99;
+}
+.fc .fc-daygrid-day.fc-day-today{
+    background-color: #88368b11;
+}
+.fc .fc-timegrid-col.fc-day-today{
+    background-color: #88368b11;
+}
+
+@media screen and (max-width: 575px) {
+    .body-spacing {
+        padding: 1em;
+    }
+    .fc .fc-toolbar-title{
+        font-size: 1em;
+    }
+    .sidebar .MuiListItem-gutters{
+        padding-left: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .body-spacing {
+        padding: 2em 1em;
+    }
+    .fc .fc-toolbar-title{
+        font-size: 1.25em;
+    }
+    .sidebar .MuiListItem-gutters{
+        padding-left: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .body-spacing {
+        padding: 2em 1em;
+    }
+}
+

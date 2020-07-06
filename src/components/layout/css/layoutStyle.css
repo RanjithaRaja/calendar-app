@@ -1,0 +1,22 @@
+.sidebar .MuiListItem-gutters {
+  padding-left: 24px;
+}
+.sidebar .MuiListItemIcon-root {
+  min-width: 48px;
+}
+.sidebar a {
+  color: #999;
+  text-decoration: none;
+}
+.sidebar a.selectedLink {
+  color: #88368b;
+}
+.sidebar a svg {
+  fill: #999;
+}
+.sidebar a.selectedLink svg {
+  fill: #88368b;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #88368b !important;
+}
